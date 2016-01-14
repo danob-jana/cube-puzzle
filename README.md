@@ -73,3 +73,14 @@ Tested on Mac OS 10.11 with the XCode command-line utilities installed:
 gcc -O3 -o cube-puzzle cube-puzzle.c
 ./cube-puzzle
 ```
+Example output:
+```
+moves: +x+y-x+y+x+z-x-z-y+z+x-z+x+y-z+x+z-y-z-y+z+y-x-y+z+y+x-y-x-z-y+z+x-z-x+y+x-z-y-x+y-x-y-z+x+z
+moves: +x+y-x+y+x+z-x-z-y+z+x-z+x+y-z+x+z-y-z-y+z+y-x-y+z+y+x-y-x-z-y+z+x-z-x-z+x+y+z-x-z-x-y-z+x+z
+moves: +x+y-x+y+x+z-x-z-y+z+x-z-y-x+z+x+z+x-z-y-x-z+x+z+x-z+x+y+z-x+y+x-z-x+z-y-z-y+x-y+z+y+z-y-x+y
+moves: +x+y-x+z-y+x-z+y-x+z-x-z-x+y+x+z+x-z+x+z-y-x+z-x+y-z+y+z-y-z+x+z+y-z+x-y+z-y-z-x-y+x+z-x+y+x
+Took 6.8 s
+positions seen: 123817866
+(55ns/position)
+solutions found: 4
+```
