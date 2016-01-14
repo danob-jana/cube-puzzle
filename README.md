@@ -55,7 +55,7 @@ forward/back, but obviously any assignment of the axes and directions
 will work. The numbers show the chain length at that spot, which I
 found helpful to keep my place as I was applying the solution to the puzzle.
 
-# scala version
+## running the scala version
 
 Tested with scala 2.10:
 ```
@@ -66,7 +66,7 @@ scala org.danob.puzzle.Main
 Again, this will take a number of minutes and output a solution
 similar to above.
 
-# c version
+## running the c version
 
 Tested on Mac OS 10.11 with the XCode command-line utilities installed:
 ```
